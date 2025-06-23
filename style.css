@@ -76,7 +76,6 @@ footer {
 }
 
 .discord-logo {
-  width: 24px;
-  height: 24px;
+  height: 1em;
+  width: auto; /* Garde le ratio de l'image */
 }
-
