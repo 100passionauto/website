@@ -1,69 +1,82 @@
+/* Centrage général de la page */
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
   background-color: #f5f5f5;
-  color: #212121;
 }
 
+/* Centrer le contenu du header */
 header {
-  text-align: center;
-  background-color: #ffffff;
   padding: 20px;
-  box-shadow: 0 2px 4px #ccc;
 }
 
+/* Réduire la taille du logo */
 .logo {
-  max-width: 150px;
+  width: 120px; /* Ajuste selon ton goût, par exemple 100px ou 150px */
   height: auto;
+  display: block;
+  margin: 0 auto 10px;
 }
 
-h1 {
-  color: #d50000;
-  margin-top: 10px;
-}
-
+/* Sections principales */
 main {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-.intro {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.articles article {
-  background-color: #ffffff;
-  margin-bottom: 20px;
-  padding: 15px;
-  border-left: 5px solid #d50000;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-.download {
-  text-align: center;
-  margin-top: 40px;
-}
-
+/* Bouton de téléchargement */
 .btn-download {
   display: inline-block;
-  background-color: #d50000;
+  background-color: #28a745;
   color: white;
   padding: 12px 20px;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
   box-shadow: 0 2px 4px #999;
+  margin-top: 10px;
 }
 
 .btn-download:hover {
-  background-color: #b40000;
+  background-color: #218838;
 }
 
+/* Footer centré */
 footer {
-  background-color: #e0e0e0;
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
   margin-top: 40px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Déjà présent mais conservé ici */
+.discord {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-discord {
+  display: inline-flex;
+  align-items: center;
+  background-color: #7289da;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px #999;
+  gap: 10px;
+}
+
+.btn-discord:hover {
+  background-color: #5b6eae;
+}
+
+.discord-logo {
+  width: 24px;
+  height: 24px;
 }
 
